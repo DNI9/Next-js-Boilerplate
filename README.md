@@ -6,8 +6,6 @@
 
 🚀 Boilerplate and Starter for Next.js, Tailwind CSS and TypeScript ⚡️ Made with developer experience first: Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged, VSCode, Netlify, PostCSS, Tailwind CSS.
 
-Clone this project and use it to create your own [Next.js](https://nextjs.org) project. You can check a [Next js templates demo](https://creativedesignsguru.com/demo/Nextjs-Boilerplate/).
-
 ### Features
 
 Developer experience first:
@@ -40,20 +38,6 @@ Built-in feature from Next.js:
 - Minimal code
 - SEO-friendly
 - 🚀 Production-ready
-
-### Nextless.js SaaS Boilerplate
-
-Build your SaaS product faster with [React SaaS Boilerplate](https://nextlessjs.com).
-
-[![React SaaS Boilerplate Next.js](https://creativedesignsguru.com/assets/images/themes/next-js-saas-starter-kit.jpg)](https://nextlessjs.com)
-
-### Premium Themes
-
-| [Green Nextjs Landing Page Template](https://creativedesignsguru.com/landing-green-modern-nextjs-theme/) | [Purple Saas Nextjs Theme](https://creativedesignsguru.com/landing-purple-modern-react-theme/) |
-| --- | --- |
-| [![Green Nextjs Landing Page Template](https://creativedesignsguru.com/assets/images/themes/landing-green-modern-nextjs-theme-xs.png)](https://creativedesignsguru.com/landing-green-modern-nextjs-theme/) | [![Blue Landing Page Nextjs Theme](https://creativedesignsguru.com/assets/images/themes/landing-blue-modern-nextjs-theme-xs.png)](https://creativedesignsguru.com/landing-blue-modern-react-theme/) |
-
-Find more [Nextjs Themes](https://creativedesignsguru.com/category/nextjs/).
 
 ### Requirements
 
@@ -149,9 +133,3 @@ Everyone is welcome to contribute to this project. Feel free to open an issue if
 Licensed under the MIT License, Copyright © 2022
 
 See [LICENSE](LICENSE) for more information.
-
----
-
-Made with ♥ by [CreativeDesignsGuru](https://creativedesignsguru.com) [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40Ixartz)](https://twitter.com/ixartz)
-
-[![Sponsor Next JS Boilerplate](https://cdn.buymeacoffee.com/buttons/default-red.png)](https://www.buymeacoffee.com/ixartz)
