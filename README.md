@@ -1,8 +1,8 @@
-# Boilerplate and Starter for Next JS 12+, Tailwind CSS 3 and TypeScript
+# Starter for Next JS 12+, Tailwind CSS 3 and TypeScript, NextAuth, Prisma
 
-🚀 Boilerplate and Starter for Next.js, Tailwind CSS and TypeScript ⚡️ Made with developer experience first: Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged, VSCode, Netlify, PostCSS, Tailwind CSS.
+🚀 Boilerplate and Starter for Next.js, Tailwind CSS and TypeScript, NextAuth, Prisma ⚡️ Made with developer experience first: Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged, VSCode, Netlify, PostCSS, Tailwind CSS.
 
-### Features
+## Features
 
 Developer experience first:
 
@@ -43,24 +43,34 @@ Built-in feature from Next.js:
 
 Run the following command on your local environment:
 
-```
-git clone --depth=1 https://github.com/dni9/Next-js-Boilerplate.git my-project-name
+```sh
+git clone --depth=1 https://github.com/dni9/Next-js-Boilerplate.git my-project-name -b next-auth-prisma
 cd my-project-name
-npm install
+yarn
 ```
+
+Run prisma migration
+
+```sh
+npx prisma migrate dev --name init
+```
+
+Configure [auth provider](https://next-auth.js.org/) and put credentials in `.env.local` (remove `.example` from file name)
 
 Then, you can run locally in development mode with live reload:
 
-```
-npm run dev
+```sh
+yarn dev
 ```
 
-Open http://localhost:3000 with your favorite browser to see your project.
+Open <http://localhost:3000> with your favorite browser to see your project.
 
-```
-.
+## Project Structure
+
+```sh
 ├── README.md                # README file
 ├── next.config.js           # Next JS configuration
+├── prisma                   # Prisma specific files
 ├── public                   # Public folder
 │   └── assets
 │       └── images           # Image used by default template
@@ -78,7 +88,7 @@ Open http://localhost:3000 with your favorite browser to see your project.
 
 You can easily configure Next js Boilerplate. Please change the following file:
 
-- `public/apple-touch-icon.png`, `public/favicon.ico`, `public/favicon-16x16.png` and `public/favicon-32x32.png`: your website favicon, you can generate from https://favicon.io/favicon-converter/
+- `public/apple-touch-icon.png`, `public/favicon.ico`, `public/favicon-16x16.png` and `public/favicon-32x32.png`: your website favicon, you can generate from <https://favicon.io/favicon-converter/>
 - `src/styles/global.css`: your CSS file using Tailwind CSS
 - `src/utils/AppConfig.ts`: configuration file
 - `src/templates/Main.tsx`: default theme
@@ -87,16 +97,16 @@ You can easily configure Next js Boilerplate. Please change the following file:
 
 You can see the results locally in production mode with:
 
-```
-$ npm run build
-$ npm run start
+```sh
+yarn build
+yarn start
 ```
 
 The generated HTML and CSS files are minified (built-in feature from Next js). It will also removed unused CSS from [Tailwind CSS](https://tailwindcss.com).
 
 You can create an optimized production build with:
 
-```
+```sh
 npm run build-prod
 ```
 
