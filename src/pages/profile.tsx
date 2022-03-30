@@ -9,7 +9,7 @@ type Props = {
 
 export default function Profile({ user }: Props) {
   return (
-    <div className="flex flex-col justify-center items-center min-h-screen">
+    <div className="flex min-h-screen flex-col items-center justify-center">
       <img
         src={user?.image!}
         alt={`profile picture of ${user?.name}`}

@@ -10,10 +10,10 @@ const Index = () => {
 
   if (!session) {
     return (
-      <div className="grid place-items-center mt-10">
+      <div className="mt-10 grid place-items-center">
         <h1>No session</h1>
         <Link href="/api/auth/signin" passHref>
-          <button className="py-1 px-3 bg-blue-400">Login</button>
+          <button className="bg-blue-400 py-1 px-3">Login</button>
         </Link>
       </div>
     );
@@ -22,8 +22,8 @@ const Index = () => {
   return (
     <div className="text-center">
       <Meta title="NextJS Starter" description="" />
-      <h1 className="mt-10 text-4xl text-center text-blue-700">
-        NextJS Starter with Next Auth & Prisma
+      <h1 className="mt-10 text-center text-4xl text-blue-700">
+        NextJS Starter with Next Auth &amp; Prisma
       </h1>
       <p className="text-center">
         You are logged in as:
@@ -33,7 +33,7 @@ const Index = () => {
       <Link href="/profile" passHref>
         <a className="mr-3 text-blue-600">Profile</a>
       </Link>
-      <button className="py-1 px-3 mt-2  bg-gray-400" onClick={() => signOut()}>
+      <button className="mt-2 bg-gray-400 py-1  px-3" onClick={() => signOut()}>
         Logout
       </button>
     </div>
